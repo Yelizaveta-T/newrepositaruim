@@ -1,0 +1,46 @@
+*		{margin:0;	padding:0;}
+
+
+nav		{background:#FF4500;height:70px;}
+main		{clear:both;}
+article	{background:#FFA500;margin-left:200px;	min-height:300px;}
+aside	{background:#700;width:200px;min-height:300px;float:left;}
+footer	{background:#ffffff;}
+header {
+	background: #ffffff; min-height:70px
+   }
+header:hover {background-color: rgb(99, 28, 212);}
+p { 
+	font-family: 'Montserrat'; /* Гарнитура шрифта */ 
+	font-size: 135%; /* Размер текста */ 
+	line-height: 1.2;
+	margin-top: 0.5em; /* Отступ сверху */
+   margin-bottom: 1em; /* Отступ снизу */
+   }
+.panel {
+    padding: 10px; /* Поля вокруг текста */
+    text-align: justify; /* Выравнивание по ширине */ 
+   }
+ul 			{display: block;   margin: 0;   padding: 0;   list-style: none; font-size: 0;}
+ul.menu > li 	{ display:inline-block;  font-size:20px;  }
+ul.menu > li > a 	{display: block;   padding: 20px;   color: white;  
+					background-color: #FF4500;  text-decoration: none;
+					font-family: 'Montserrat'; /* Гарнитура шрифта */ 
+					font-size: 130%; /* Размер текста */  }
+ul.menu > li > a:hover {background-color: rgb(99, 28, 212); text-decoration: line-through}
+
+
+
+
+/*Задания:
+1. Поменять цвет меню.
+2. Поменять подчеркивание ссылки - сделать "зачеркивание"
+3. Заменить цвет, фона верхнего меню при наведении на синий.
+4. Сделать изменение фона при наведение на пункты меню (выпадающих элементов).
+
+*/
+
+.wrapper{
+	width:900px;
+	margin: 0 auto;
+}
