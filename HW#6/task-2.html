@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task-2</title>
+</head>
+<body>
+    <div class="form">
+        <span>Введите два слагаемых</span>
+        <input type="number" id="a">
+        <span> + </span>
+        <input type="number" id="b">
+        <button onclick="Ravno()">=</button>
+    </div>
+    <script>
+    function Ravno() {
+    var a = +document.querySelector("#a").value;
+    var b = +document.querySelector("#b").value;
+    var c = a + b;
+    alert(c);
+}
+    </script>
+</body>
+</html>
