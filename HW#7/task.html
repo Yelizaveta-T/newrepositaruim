@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> JS. Conditions </title>
+</head>
+<body>
+<script src="main.js"></script>
+    <div>
+        <p>Задание 1</p>
+        <span>Введите два числа</span>
+        <input type="number" id="a">
+        <input type="number" id="b">
+        <button onclick="Result1()">Сравнение чисел</button>
+        <p> Наибольшее число <span id="result_1"> </span> </p>
+    </div>
+    <hr>
+
+    <div>
+        <p>Задание 2</p>
+        <span>Введите три числа</span>
+        <input type="number" id="a2">
+        <input type="number" id="b2">
+        <input type="number" id="c2">
+        <button onclick="Result2()">Сравнение чисел</button>
+        <p> Наибольшее число <span id="result_2"> </span> </p>
+    </div>
+    <hr>
+
+    <div>
+        <p>Задание 3</p>
+        <span>Введите координаты:</span>
+        <input type="number" id="a3" placeholder="X">
+        <input type="number" id="b3" placeholder="Y">
+        <button onclick="Result3()">Какая четверть</button>
+        <p> Четверть: <span id="result_3"> </span> </p>
+    </div>
+    <hr>
+
+    <div>
+        <p>Задание 4</p>
+        <span>Введите два числа</span>
+        <input type="number" id="a4" placeholder="K">
+        <input type="number" id="b4" placeholder="L">
+        <button onclick="Result4()">Замена</button>
+        <p> К =  <span id="result_4.a"> </span> </p>
+        <p> L = <span id="result_4.b"> </span> </p>
+    </div>
+    <hr>
+
+    <div>
+        <p>Задание 5</p>
+        <span>Введите число</span>
+        <input type="number" id="a5">
+        <button onclick="Result5()">Определение параметров</button>
+        <p> <span id="result_5"> </span> </p>
+    </div> 
+    <hr>
+
+    <div>
+        <p>Задание 6</p>
+        <span>Введите число</span>
+        <input type="number" id="a6">
+        <button onclick="Result6()">Определение параметров</button>
+        <p><span id="result_6"> </span> </p>
+    </div>
+    <hr>
+
+    <div>
+        <p>Задание 7</p>
+        <span>Введите число</span>
+        <input type="number" id="a7">
+        <button onclick="Result7()">Определение параметров</button>
+        <p><span id="result_7">  </span> </p>
+    </div>
+    <hr>
+
+    <div>
+        <p>Задание 8</p>
+        <span>Введите трехзначное число</span>
+        <input type="number" id="a8">
+        <button onclick="Result8()">Определение палиндромности</button>
+        <p><span id="result_8"> </span></p>
+    </div>
+    <hr>
+
+    <div>
+        <p>Задание 9</p>
+        <span>Введите время</span>
+        <input type="number" id="a9" placeholder="Часы">
+        <input type="number" id="b9"placeholder="Минуты">
+        <button onclick="Result9()">Вывести приветствие</button>
+        <p> Приветствие: <span id="result_9"> </span> </p> 
+    </div>
+    <hr>
+
+    <div>
+        <p>Задание 10</p>
+        <span>Введите число</span>
+        <input type="number" id="a10">
+        <button onclick="Result10()">Определение кратности</button>
+        <p><span id="result_10"> </span> </p>
+    </div>
+    <hr>
+
+    <div>
+        <p>Задание 11</p>
+        <span>Введите размеры сторон</span>
+        <input type="number" id="a11" placeholder="Сторона X">
+        <input type="number" id="b11"placeholder="Сторона Y">
+        <input type="number" id="c11"placeholder="Сторона Z">
+        <input type="number" id="d11"placeholder="Сторона квадратного отверстия A">
+        <button onclick="Result11()">Вывести ответ</button>
+        <p><span id="result_11"> </span></p>
+    </div>
+    <hr>
+
+    <div>
+        <p>Задание 12</p>
+        <span>Введите два числа:</span>
+        <input type="number" id="a12" placeholder="Число X">
+        <input type="number" id="b12" placeholder="Число Y">
+        <button onclick="Result12()">Вывести результат</button>
+        <p> Z =  <span id="result_12"> </span> </p> 
+    </div>
+    <hr>
+
+    <div>
+        <p>Задание 13</p>
+        <span>Введите два числа:</span>
+        <input type="number" id="a13" placeholder="Число А">
+        <input type="number" id="b13" placeholder="Число В">
+        <button onclick="Result13()">Вывести результат</button>
+        <p> A =  <span id="result_13.a"> </span> </p> 
+        <p> B =  <span id="result_13.b"> </span> </p> 
+    </div>
+    <hr>
+
+    <div>
+        <p>Задание 14</p>
+        <span>Введите два числа:</span>
+        <input type="number" id="a14" placeholder="Число X">
+        <input type="number" id="b14" placeholder="Число Y">
+        <button onclick="Result14()">Вывести результат</button>
+        <p> Z =  <span id="result_14"> </span> </p> 
+    </div>
+    <hr>
+
+    <div">
+        <p>Задание 15</p>
+        <span>Введите два целых числа:</span>
+        <input type="number" id="a15" placeholder="Число X">
+        <input type="number" id="b15" placeholder="Число Y">
+        <button onclick="Result15()">Вывести результат</button>
+        <p> Цифра младшего разряда:<span id="result_15.a">  </span> </p> 
+        <p> Остаток от деления на 3: <span id="result_15.b">  </span> </p> 
+    </div>
+    <hr>
+</body>
+</html>
